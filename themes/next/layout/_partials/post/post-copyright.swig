@@ -3,6 +3,12 @@
 
 <div>
 <ul class="post-copyright">
+    <li class="post-copyright-license">
+    <a href="http://www.echo1024.com/images/logo.jpg" target="_blank" style="border: 0;display:inline-block;text-align: center;">
+        <span><i class="fab fa-weixin"></i></span>
+        <span class="label">WeChat</span>
+    </a>
+  </li>
   <li class="post-copyright-author">
     <strong>{{ __('post.copyright.author') + __('symbol.colon') }} </strong>
     {{- page.author or author }}
@@ -16,4 +22,6 @@
     {{- __('post.copyright.license_content', next_url(ccURL, ccIcon + ccText)) }}
   </li>
 </ul>
-</div>
+</>
+
+
